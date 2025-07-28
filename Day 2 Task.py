@@ -23,6 +23,7 @@ average, print "Buy Signal"; otherwise, print "Sell Signal". Assume you have a l
 average can be calculated.
 """
 
+
 data = [100,211,234,122,321,333,452,121,111,132]
 avg = sum(data)/len(data)
 current_price = float(input("Enter the current stock price: "))
